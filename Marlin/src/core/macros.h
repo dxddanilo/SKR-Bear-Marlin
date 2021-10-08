@@ -578,7 +578,7 @@
 #define EVAL2(V...)    EVAL1(EVAL1(V))
 #define EVAL1(V...)    V
 
-#define IS_PROBE(V...) SECOND(V, 0)     // Get the second item passed, or 0
+//#define IS_PROBE(V...) SECOND(V,0)     // Get the second item passed, or 0
 #define PROBE() ~, 1                    // Second item will be 1 if this is passed
 #define _NOT_0 PROBE()
 #define NOT(x) IS_PROBE(_CAT(_NOT_, x)) // NOT('0') gets '1'. Anything else gets '0'.

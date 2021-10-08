@@ -31,7 +31,7 @@
 //===========================================================================
 
 // "SKR Bear" or "SKR Caribou" will be used by default. Uncomment to set a custom printer name.
-//#define PRUSA_SKR_CUSTOM_NAME "3D Printer"
+#define PRUSA_SKR_CUSTOM_NAME "chucky"
 
 //===========================================================================
 //=========================== Printer/Frame Type ============================
@@ -75,7 +75,7 @@
  *           3: LDO 0.9° pancake
  *           4: LDO planetary
  */
-#define PRUSA_SKR_E_STEPPER 1
+#define PRUSA_SKR_E_STEPPER 2
 
 /**
  * X/Y Stepper Motors
@@ -101,11 +101,11 @@
  */
 // If needed, uncomment *_STALL_SENSITIVITY to customize StallGuard sensitivity.
 // This can also be customized via LCD under Configuration -> Advanced Settings -> TMC Drivers -> Sensorless Homing
-//#define PRUSA_SKR_X_STALL_SENSITIVITY  90
-//#define PRUSA_SKR_Y_STALL_SENSITIVITY  100
+#define PRUSA_SKR_X_STALL_SENSITIVITY  90
+#define PRUSA_SKR_Y_STALL_SENSITIVITY  100
 
 // If needed, uncomment PRUSA_SKR_HOMING_FEEDRATE_MM_M to customize Homing speeds (mm/min)
-//#define PRUSA_SKR_HOMING_FEEDRATE_MM_M { (50*60), (50*60), (4*60) }
+#define PRUSA_SKR_HOMING_FEEDRATE_MM_M { (50*60), (50*60), (4*60) }
 
 //===========================================================================
 //================================= Hotend ==================================
@@ -205,7 +205,7 @@
  * Options:  1: Bilinear
  *           2: Unified Bed Leveling
  */
-#define PRUSA_SKR_BED_LEVELING 1
+#define PRUSA_SKR_BED_LEVELING 2
 
 //===========================================================================
 //============================= Sheet Profiles ==============================
