@@ -75,8 +75,12 @@
  *           3: LDO 0.9° pancake
  *           4: LDO planetary
  */
+<<<<<<< Updated upstream
 #define PRUSA_SKR_E_STEPPER 3
 
+=======
+#define PRUSA_SKR_E_STEPPER 1
+>>>>>>> Stashed changes
 /**
  * X/Y Stepper Motors
  *
